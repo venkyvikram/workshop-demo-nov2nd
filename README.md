@@ -36,3 +36,4 @@ Venkatramanan Vijayan and Sanjay Nagarhalli (IBM Cloud CISO).
 ---
 
 **Speaker contact:** Venkatramanan Vijayan · venky_01@yahoo.com · [LinkedIn](https://www.linkedin.com/in/venky1805/)
+# RVCE Workshop — Nov 2, 2026
