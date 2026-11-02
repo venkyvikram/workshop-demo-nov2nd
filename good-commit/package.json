@@ -4,7 +4,8 @@
   "description": "GOOD EXAMPLE — patched dependencies",
   "main": "app.js",
   "dependencies": {
-    "express": "4.21.2",
+    "express": "4.22.3",
+    "body-parser": "1.20.9",
     "lodash": "4.18.0",
     "minimist": "1.2.8",
     "node-fetch": "2.7.0",
@@ -14,8 +15,9 @@
     "validator": "13.15.22"
   },
   "comments": {
+    "express@4.22.3": "bundles path-to-regexp 0.1.13 (CVE-2026-4867 patched)",
+    "body-parser@1.20.9": "CVE-2026-111181 patched — pinned explicitly",
     "lodash@4.18.0": "CVE-2026-4800 patched in 4.18.0",
-    "express@4.21.2": "body-parser 1.20.9 bundled — CVE-2026-111181 patched",
     "serialize-javascript@7.0.3": "GHSA-5c6j-r48x-rmvq patched in 7.0.3",
     "validator@13.15.22": "CVE-2025-12758 patched in 13.15.22",
     "helmet": "Sets secure HTTP response headers",
